@@ -1,1 +1,2 @@
 "this is address /var/www/html/myGitRepository!"
+"git is free software"
