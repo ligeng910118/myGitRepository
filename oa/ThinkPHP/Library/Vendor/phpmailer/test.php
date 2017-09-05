@@ -18,14 +18,14 @@ class email{
 		$mail->isSMTP(); // Set mailer to use SMTP
 		$mail->Host = 'smtp.qq.com'; // Specify main and backup SMTP servers
 		$mail->SMTPAuth = true; // Enable SMTP authentication
-		$mail->Username = '2316558806@qq.com'; // SMTP username
-		$mail->Password = 'ddghkeausqpydjjj'; // SMTP password
+		$mail->Username = '19915868@qq.com'; // SMTP username
+		$mail->Password = 'ryleostdvqjjbhie'; // SMTP password
 		$mail->SMTPSecure = 'ssl'; // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 465; // TCP port to connect to
-		$mail->setFrom('2316558806@qq.com', '2316558806@qq.com');
+		$mail->setFrom('info@yuntujuhe.com', 'info@yuntujuhe.com');
 		$mail->addAddress("$this->receive"); // Add a recipient
 		// Name is optional
-		$mail->addReplyTo('2316558806@qq.com', '2316558806@qq.com');
+		$mail->addReplyTo('info@yuntujuhe.com', 'info@yuntujuhe.com');
 		//$mail->addCC('cc@example.com');
 		//$mail->addBCC('bcc@example.com');
 		

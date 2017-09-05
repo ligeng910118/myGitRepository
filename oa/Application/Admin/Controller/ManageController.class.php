@@ -28,7 +28,7 @@ class ManageController extends BaseController {
     		$result=$this->updateDataAction();
     		$workEmail = self::getWorkEmail();
     		//var_dump($workEmail);die;
-    		if($result&&self::sendQQEmail($workEmail,'商户二维码','商户二维码上传，请快速处理'))
+    		if($result&&self::sendQQEmail($workEmail,'二维码已上传','公众号认证缴费二维码已上传，请及时处理'))
 	    		$this->success('success',__CONTROLLER__.'/index');
 	    	else 
 	    		$this->error('error');
@@ -56,7 +56,7 @@ class ManageController extends BaseController {
     		$result=$this->updateDataAction();  		
     		$workEmail = self::getWorkEmail();
     		//var_dump($workEmail);die;
-    		if($result&&self::sendQQEmail($workEmail,'商户资料批准','商户资料批准，请快速处理'))
+    		if($result&&self::sendQQEmail($workEmail,'商户资料审核通过','商户资料审核通过，请及时处理'))
     			$this->success('success',__CONTROLLER__.'/index');
     		else
     			$this->error('error');
@@ -74,7 +74,7 @@ class ManageController extends BaseController {
     	self::setPostData('status',4);
     	$result=$this->updateDataAction();
     	$workEmail = self::getWorkEmail();
-    		if($result&&self::sendQQEmail($workEmail,'商户资料未批准','商户资料未批准，请快速处理'))
+    		if($result&&self::sendQQEmail($workEmail,'商户资料审核未通过','商户资料审核未通过，请及时处理'))
     			$this->success('success',__CONTROLLER__.'/index');
     		else
     			$this->error('error');
@@ -89,7 +89,7 @@ class ManageController extends BaseController {
     		self::setPostData('productEnd', time());
     		$result=$this->updateDataAction();
     		$workEmail = self::getWorkEmail();
-    		if($result&&self::sendQQEmail($workEmail,'小程序已完成','小程序已完成，请三天后进行回访'))
+    		if($result&&self::sendQQEmail($workEmail,'小程序审核通过','小程序审核通过，请自行安排回访时间'))
     			$this->success('success',__CONTROLLER__.'/index');
     		else
     			$this->error('error');
