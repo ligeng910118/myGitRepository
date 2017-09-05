@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<include file="../Public/head" /> 
+      <body class="skin-black">
+        <!-- header logo: style can be found in header.less -->
+<include file="../Public/header" /> 
+                <div class="wrapper row-offcanvas row-offcanvas-left">
+                    <!-- Left side column. contains the logo and sidebar -->
+   <include file="../Public/menu" />                
+
+                    <aside class="right-side">
+
+                <!-- Main content -->
+                          <section class="panel">
+                              <header class="panel-heading">
+                                  {$controller}    {$action}
+                              </header>
+                              <div class="panel-body">
+                                  <form class="form-horizontal" role="form" method="post" enctype="multipart/form-data" <if condition="$data.payCode neq null">action="__CONTROLLER__/secoudDataUpdate"<else /> action=""</if>>
+ 									<if condition="$Think.get.id neq null">
+ 									<input type="hidden" name="id" value="{$Think.get.id}" >
+ 									</if>
+ 									
+                                      <div class="form-group">
+                                          <label for="sellName" class="col-lg-2 col-sm-2 control-label">商户名称</label>
+                                          <div class="col-lg-10">
+                                              <input type="text" <if condition="$data.payCode neq null">readonly</if> class="form-control" id="sellName" placeholder="sellName" name="sellName" value="{$data.sellName}" >
+                                          </div>
+                                      </div>
+
+									<div class="form-group">
+                                          <label for="sellPhone" class="col-lg-2 col-sm-2 control-label">联系电话</label>
+                                          <div class="col-lg-10">
+                                              <input type="text" <if condition="$data.payCode neq null">readonly</if> class="form-control" id="sellPhone" placeholder="sellPhone" name="sellPhone" value="{$data.sellPhone}" >
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                          <label for="firstData" class="col-lg-2 col-sm-2 control-label">商户证件</label>
+                                          <if condition="$data.firstData eq null">
+                                          <div class="col-lg-10">
+                                              <input type="file"  id="firstData" placeholder="firstData" name="firstData"  >
+                                          </div>
+                                          <else />
+                                           <a style="padding:100px" href="/oa/{$data.firstData}">压缩文件</a>
+                                           </if>
+                                      </div>
+                                     
+                                      <div class="form-group">
+                                          <label for="manageEmail" class="col-lg-2 col-sm-2 control-label">主管邮箱</label>
+                                          <div class="col-lg-10">
+                                              <input type="text" class="form-control" <if condition="$data.payCode neq null">readonly</if> id="manageEmail" placeholder="manageEmail" name="manageEmail" value="{$data.manageEmail}" >
+                                          </div>
+                                      </div>
+                                      
+                                      <if condition="$data.payCode neq null">
+                                      
+                                      <div class="form-group">
+                                          <label for="payCode" class="col-lg-2 col-sm-2 control-label">收款二维码</label>
+                                          <div class="col-lg-10">
+                                              <input type="file" id="payCode" placeholder="payCode" name="payCode" value="{$data.payCode}" >
+                                          </div>
+                                          <if condition="$data.payCode neq null">
+                                          <img src="/oa/{$data.payCode}" />
+                                          </if>
+                                      	</div>
+                                      
+                                      
+                                      	<div class="form-group">
+                                          <label for="payImage" class="col-lg-2 col-sm-2 control-label">支付凭证</label>
+                                          <div class="col-lg-10">
+                                              <input type="file" id="payImage" placeholder="payImage" name="payImage" value="{$data.payImage}" >
+                                          </div>
+                                          <if condition="$data.payImage neq null">
+                                          <img src="/oa/{$data.payImage}" />
+                                          </if>
+                                      	</div>
+
+									<div class="form-group">
+                                          <label for="secoudData" class="col-lg-2 col-sm-2 control-label">商户素材</label>
+                                          <div class="col-lg-10">
+                                              <input type="file"  id="secoudData" placeholder="secoudData" name="secoudData"  >
+                                          </div>
+                                          <if condition="$data.secoudData neq null">
+                                    		<a style="padding:100px" href="/oa/{$data.secoudData}">压缩文件</a>
+                                    		</if>
+                                      </div>
+                                      </if>
+                                      
+                                      <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                              <input type="submit" class="btn btn-danger" value="{$controller} {$action}">
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </section>
+            </aside><!-- /.right-side -->
+
+        </div><!-- ./wrapper -->
+
+<include file="../Public/js" /> 
+ 
+</body>
+</html>

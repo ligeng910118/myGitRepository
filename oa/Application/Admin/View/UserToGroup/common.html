@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<include file="../Public/head" /> 
+      <body class="skin-black">
+        <!-- header logo: style can be found in header.less -->
+<include file="../Public/header" /> 
+                <div class="wrapper row-offcanvas row-offcanvas-left">
+                    <!-- Left side column. contains the logo and sidebar -->
+   <include file="../Public/menu" />                
+
+                    <aside class="right-side">
+
+                <!-- Main content -->
+                          <section class="panel">
+                              <header class="panel-heading">
+                                  {$controller}    {$action}
+                              </header>
+                              <div class="panel-body">
+                                  <form class="form-horizontal" role="form" method="post" action="">
+ 
+ 									<foreach name="fields" item="vo">
+                                      <div class="form-group">
+                                          <label for="{$vo}" class="col-lg-2 col-sm-2 control-label">{$vo|changeChina}</label>
+                                          <div class="col-lg-10">
+                                              <input type="text" <if condition="$vo eq 'id'">readonly</if> class="form-control" id="{$vo}" placeholder="{$vo}" name="{$vo}" value="{$data.$vo}" >
+                                          </div>
+                                      </div>
+									</foreach>
+
+                                      <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                              <input type="submit" class="btn btn-danger" value="{$controller} {$action}">
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </section>
+                <div class="footer-main">
+                    uid <foreach name="username" item="vo">【{$vo.id} : {$vo.username}】</foreach><br />
+                    group_id <foreach name="group" item="vo">【{$vo.id} : {$vo.title}】</foreach>}
+                </div>
+            </aside><!-- /.right-side -->
+
+        </div><!-- ./wrapper -->
+
+<include file="../Public/js" /> 
+ 
+</body>
+</html>

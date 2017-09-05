@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<include file="../Public/head" /> 
+      <body class="skin-black">
+        <!-- header logo: style can be found in header.less -->
+<include file="../Public/header" /> 
+                <div class="wrapper row-offcanvas row-offcanvas-left">
+                    <!-- Left side column. contains the logo and sidebar -->
+   <include file="../Public/menu" />                
+
+                    <aside class="right-side">
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <!-- Main row -->
+
+                    <div class="row">
+
+                        <div class="col-md-12	">
+                            <section class="panel">
+                              <header class="panel-heading">
+                                  Work Progress <a href="__CONTROLLER__/add" class="pull-right badge bg-yellow">添加</a>
+                            </header>
+                            <div class="panel-body table-responsive">
+                                <table class="table table-hover">
+                                  <thead>
+                                    <tr>
+                                      <th>id</th>
+                                      <th>用户名</th>
+                                      <th>群组</th>
+                                      <!-- <th>Price</th> -->
+                                      <th>修改</th>
+                                      <th>删除</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                              <foreach name="list" item="vo">
+                                <tr>
+                                 <td>{$vo.id}</td>
+                                 <td>{$vo.uid|getField='user','username'}</td>
+                                 <td>{$vo.group_id|getField='auth_group','title'}</td>                                 
+                                  <!-- <td>$1500</td> -->
+                                  <td><a href="__CONTROLLER__/update/id/{$vo.id}" class="badge bg-light-blue">修改</a></td>
+                                  <td><a href="__CONTROLLER__/delete/id/{$vo.id}" class="badge bg-red">删除</a></td>
+                              </tr>
+							</foreach>
+                          </tbody>
+                      </table>
+                      {$page}
+                  </div>
+              </section>
+
+
+          </div><!--end col-6 -->
+
+                    </div>
+              <!-- row end -->
+                </section><!-- /.content -->
+                <div class="footer-main">
+                    Copyright &copy Director, 2014. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+                </div>
+            </aside><!-- /.right-side -->
+
+        </div><!-- ./wrapper -->
+
+<include file="../Public/js" /> 
+ 
+</body>
+</html>
