@@ -148,5 +148,4 @@ class BaseController extends Controller {
         if(!$result)
             $this->error('您没有权限，请联系管理员');
     }
-    
 }

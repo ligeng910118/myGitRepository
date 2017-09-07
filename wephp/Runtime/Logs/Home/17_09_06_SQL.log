@@ -1,0 +1,266 @@
+[ 2017-09-06T09:44:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/
+SQL: SHOW COLUMNS FROM `wx_auth_group_access` [ RunTime:0.0113s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wx_auth_group_access a INNER JOIN wx_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0401s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0219s ]
+
+[ 2017-09-06T09:44:22+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SHOW COLUMNS FROM `wx_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wx_auth_group_access a INNER JOIN wx_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wx_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '59af52f543465' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `id`,`token` FROM `wx_apps`  [ RunTime:0.0118s ]
+SQL: SELECT `id`,`token` FROM `wx_apps`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`token` FROM `wx_apps`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`token` FROM `wx_apps`  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`token` FROM `wx_apps`  [ RunTime:0.0004s ]
+
+[ 2017-09-06T09:46:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SHOW COLUMNS FROM `wx_admin_log` [ RunTime:0.0005s ]
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662376','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'李庚\',
+  \'password\' => \'\',
+); 
+') [ RunTime:0.0800s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = '李庚' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-06T09:46:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662379','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'李庚\',
+  \'password\' => \'\',
+); 
+') [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = '李庚' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-06T09:46:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662380','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'李庚\',
+  \'password\' => \'\',
+); 
+') [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = '李庚' LIMIT 1   [ RunTime:0.0168s ]
+
+[ 2017-09-06T09:46:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662381','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'李庚\',
+  \'password\' => \'\',
+); 
+') [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = '李庚' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T09:47:13+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662433','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'ligeng\',
+  \'password\' => \'123456\',
+); 
+') [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'ligeng' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T09:47:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662437','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'ligeng\',
+  \'password\' => \'123456\',
+); 
+') [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'ligeng' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T09:48:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504662519','http://localhost/myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+POST: array (
+  \'username\' => \'hbyczsl\',
+  \'password\' => \'zsl3243867\',
+); 
+') [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'hbyczsl' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_action` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wx_user` SET `login_count`=`login_count`+1,`last_login_time`='1504662519',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0002s ]
+
+[ 2017-09-06T09:48:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/Index/index.html
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T09:48:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T09:48:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/Apps/lists/from/3.html
+SQL: SELECT * FROM `wx_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_manager` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wx_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `wx_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wx_auth_group_access a INNER JOIN wx_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0003s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wx_apps_follow` WHERE ( uid='1' )  [ RunTime:0.2493s ]
+SQL: SHOW COLUMNS FROM `wx_user_tag_link` [ RunTime:0.0006s ]
+SQL: SELECT `tag_id` FROM `wx_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_model` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_model` WHERE `name` = 'apps' LIMIT 1   [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `wx_apps_link` [ RunTime:0.0004s ]
+SQL: SELECT `mp_id` FROM `wx_apps_link` WHERE ( uid='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `mp_id`,count(1) as num FROM `wx_apps_link` WHERE `mp_id` IN ('16','17') GROUP BY mp_id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_model` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`uid`,`public_name`,`public_id`,`headface_url`,`area`,`addon_config`,`addon_status`,`token`,`type`,`appid`,`secret`,`encodingaeskey`,`tips_url`,`is_bind`,`check_file`,`app_type`,`mch_id`,`partner_key`,`cert_pem`,`key_pem` FROM `wx_apps` WHERE `id` IN ('16','17') ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-06T09:48:49+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/Index/main.html
+SQL: SELECT * FROM `wx_apps` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0445s ]
+SQL: SELECT * FROM `wx_apps` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_apps_auth` [ RunTime:0.0004s ]
+SQL: SELECT `name`,type_3 as val FROM `wx_apps_auth`  [ RunTime:0.0133s ]
+SQL: SELECT * FROM `wx_addons` WHERE `status` = 1  [ RunTime:0.0109s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_addons` WHERE `status` = 1 ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SELECT `addon_status` FROM `wx_apps_link` WHERE `uid` = 1 AND `mp_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `wx_apps_follow` WHERE `openid` IN ('ozIxnwVR8LntqRDx0c3mqn3uCz4w','ozIxnwRDg082X_4VbYzV3ZQu3HPw','ozIxnwfgd__i2jVOovBGAsCkktRQ','ozIxnwZRILJspG6w72Z2IHH1vfVg','ozIxnwT44BbcJIYyog2WxWDsg13w','ozIxnwaG1Xd19yFWoYBRnKda5RCQ','ozIxnwZZcvLxkriQRrYBaiTnB0rY','ozIxnwdzHpY3exhUNq6wTKgIvE58','ozIxnwepMJIeVUNleMf7T1fOlZKo','ozIxnwYSbkQGWT7X-akl2ZYOx2fA','ozIxnwQ7WC2BQdJ9YgfhoJzLUAzE','ozIxnwU1p84mKqwrcA-Zd6EE02k4','ozIxnwQZLgkLMg6h2CwpaA9FGEJo','ozIxnwQCNmy4x5D6AHK_JedAnLx0','ozIxnwVoyo5MQvXaPI6IRcrWGSwg','ozIxnwXrgg2gBFk9FDPd05K447pk','ozIxnwQVWsXsMX8byLTvTg8Vzp3Q','ozIxnwbbm0pg2Qzp7PCcDmnhWBS8','ozIxnwXg8e0g1RscW_eN6txzu1gI','ozIxnwUDJhSby18UGfXMXHr9TG5k','ozIxnwYJJSriaRSsKB8ts81r2WxI','ozIxnwaBBlCWtGATcnkiylq67mek','ozIxnwZmRdxw05_qeuccJRs4BFPE','ozIxnwVBWJKpF3YIEeV9Q7HAxQZg','ozIxnwUki0DeAXA--wjH6fN01VZI','ozIxnwXluuNOtTMKyAE4tnEhcxEA','ozIxnwRnG-9xmOThEcV-gal85UHw','ozIxnwcVYrKJdb2m9C7wW1sz9djA','ozIxnwQTGmC2YRl3CuGITmQHdq28','ozIxnwQbRRYqVNGtl_TfVG8I1jd4','ozIxnwbYIR-AlLZH-F60prDgp0bc','ozIxnwUjPG9y7N6v0FIMkj-jzAYA','ozIxnwTw4gc4Ge-Lg12ohK-LnP_I','ozIxnwWFHIPV-rxoqvXgHIyOey40','ozIxnwW1GeXZyXcMVSe5nvfMPwCI','ozIxnwUI6w0xiGbbgCBKuHH0Gdas','ozIxnwdj8sfCH2xsFpOjK38DIYSY','ozIxnwSE8tR96xfhUwuZRSytWx10','ozIxnwfgjeMeLbjMUGXOZIRrgquo','ozIxnwdynVDnmFW9LOrawnGNB2kc','ozIxnwR1uBOW_fnLKTZUs3vifLIA','ozIxnwas4COBBCULjeFpyAWvf7og','ozIxnwV6IiGlvR4PH9JaBXpvweyc','ozIxnwecPKpuIGOwkvFBblqZ1RLw','ozIxnwSzvgntbEsG7mQs6YE4BV-A','ozIxnwYLj7C7Rqi5LX_MD0BrwGQY','ozIxnwfah9_yMVtul8JrOiM6dDr4','ozIxnwZrU2WTqUA03vgKlPNKn4tY','ozIxnweHoqOYSXgx2vLf3mlEGhb4','ozIxnwYQN5PzpgSWSktYL4mPa-bU','ozIxnwcKM1iugRXGWn4J2vCYV6oA','ozIxnwbczPKQ42mnsFyAvd5bM4pk','ozIxnwdxAkCZIF5nd_95vkqA-INI','ozIxnwWZcAlgYg1llQUxhe9giX9o','ozIxnwd3gT2pKIj-eaUBHopNs1Qs','ozIxnwUFjtSmCeVisj82a-1QSBs8','ozIxnwQp4QlT9G7FteuD0VAvy2eo','ozIxnwTJbpqVPIPE8zaPP-_pJmXE','ozIxnwf3PDOgXKLMRU2CaEX9nc7k','ozIxnwXFNNO4L_SLbcZj2oc2ek3g','ozIxnwZbqMHOeBsdhDSkzLoXZrhA','ozIxnwQvOQ91Ba-BUdJSYVniIfMA','ozIxnwZ9oiSOsZT_Ta3KKS132nvI','ozIxnwYZynaqRM_Gj16oI0JrF1zE','ozIxnwXApij-unaGeHcN0fiFuhSA','ozIxnwdbcYPZLzwDl3Hlx8HsMLEQ','ozIxnwRDYEHoeen2Tt8rwBPc2RfI','ozIxnwaraohv1Ku8nPvRwjiMEvv8','ozIxnwUISAOtEGP3-TdFgZpPJoXo','ozIxnwcG8hVQow46tPwa1vTVINFs','ozIxnwV78Dky0Gl9D7J5rXaBcHGQ','ozIxnwcY25zbVJZxAfNoZh1FTWr4','ozIxnweKsdbXhkLfR51pqON5uciM','ozIxnwdpqjIQFjRCsacPkdMp0X4U','ozIxnwaKjxKXeL0L-_yDA84-GJHs','ozIxnwZWIiD6nPCEsoNmIEqx0oPM','ozIxnwabI7c-gDlUMsMenrv7SMF0','ozIxnwa5-NlHlF8ltk7R9HzViyMY','ozIxnwWLwW524s4J6Iktad_Dwkfc','ozIxnwarcFxr5Sa8_NFMFtpMQtdQ','ozIxnwYYD4QA2wSE9PkAw1rWeQP4','ozIxnwco3JCUBpN7rZ8Z3h7GmkV0','ozIxnwUt7YmpfaSGQ0PEB7R8Dkhg','ozIxnwV5iOa0AWOb3SSnu3MU0QEM','ozIxnwVTGizbyEyDaNqOvjHpfZSI','ozIxnwQcKiVxp7myTRP1-vvMgi5U','ozIxnwVkR0e5uPJO-WHN2_CjEwy8','ozIxnwf4-2kTMlbMCXWJY3pjiyGw','ozIxnwQJ05eK-vgyQ7160_K6iG1A','ozIxnwZGMzweo7XelYk-zGjyuPHs','ozIxnwSVDjFatLslMuC_GzwUuxGk','ozIxnwZVablhXfud3eqPNDr9MR5E','ozIxnwQPD-MhDkp86af5QruK-iaU','ozIxnwZa1gEBwJU_PaGQ7u-TtBn4','ozIxnwel8H56_bIXL7nRjf6wUEL4','ozIxnwcPzKKpqr1ng_5kv3pGsOwg','ozIxnwagt1jPbWSDoIb_8DLkWf4A','ozIxnwXvKU7m-qShr3fdgggGZj3w','ozIxnwW1YMQQSktaLywOXWiS7qmo','ozIxnwWa1DV8I8Qk1I41Jox_gG-c','ozIxnweLCh0l5B6tYrMM3ywN9Ldg','ozIxnwfAkm_1Dl21KOG3YsRFwRVc','ozIxnwREWvkMS6uIncVYr_riAd4I','ozIxnwU6EXDtkuaOPt1XpWtf7kdM','ozIxnwVZF1L_SOprV8LnQKEICNX0','ozIxnwesDUjJNgHCdAs1ctDfctWA','ozIxnwahLiYjFmJmc2EinU-OtCW8','ozIxnwUC1_pRKNeyFp0qpZVphaFU','ozIxnwQDuFc_wJ2U9WzvDrvxTagk','ozIxnwX3MEWJrrm7Ij8GoVAV0uPg','ozIxnwYJ_Mp8as_byFFgB-P6CtIU','ozIxnwRvNJSxuHYjpAM5NXcchA3o','ozIxnwWxMutgJrmS7Ccej21mbWlM','ozIxnwXtqP2Nd0uZp27PVGaA5yRE','ozIxnwSOySozblWo_oqC9f283Rk0','ozIxnwQ3E1t3Z8-SrpDRujbGM8oA','ozIxnwVnexqRMMziUp4Rb0Bay7nw','ozIxnwQnNMW11Ct463Yt84-XUTig','ozIxnwZJVdjq2zuR4lJQ9ypDw0rU','ozIxnwbHv1BIjKOMTefP8i1lJ-Uw','ozIxnwd2c9oJAIXrzaqGevPieaa8','ozIxnwfkTeZ3MBdEsxjvQqRIvuqg','ozIxnwQH8c4bu7qqtoxsJ77usc9g','ozIxnwZ_4q4TsWlvqBAm1GVWxudg','ozIxnwTKQi7WW9ZB-PeMm6GCwhkw','ozIxnwd7T83eYUFU6Uui9W62MPV4','ozIxnwWs7JJdV97AbMhaVKvBOjlc','ozIxnwT1_M5z8JuVheyRGKYqQcjA','ozIxnwRBnKdDo4dO-eyIhzcjppNk','ozIxnwUlhsGiEsiKn_W2ad4XWG44','ozIxnwd8LXdvFVYyD0eVboW7gyvY','ozIxnwXIsgMWHJvKEtKSZHdLI7fU','ozIxnwcDgR6qJngYHXcXypfjkz4U','ozIxnwUX9UTO3yP6Cy9e1LppDoRc','ozIxnwTnZB9dyDWAjZcD2akshh-8','ozIxnwc_Yqn5ZlahD8uIgobgCIx4','ozIxnwWHU7kTaGCcflFQUhKjDDdM','ozIxnwa6ki7v1vufjanjTJYEMxcw','ozIxnwYoA25wSY-rfhTITZ3JcSjQ','ozIxnwYbUUe1W8jSSyafm6GRPx-c','ozIxnwRMEAKin7V1F4qFgq_CKNtA','ozIxnwZhWsLX9FKOO0lpULbk0sUI','ozIxnwXksxm8N62iwCwj5-NagHKw','ozIxnwaZZrfm_swNztQVCd_G4iH8','ozIxnwRq-4FZmf9c7f9zcFWJ3S6c','ozIxnwQQY5FFXb6_DgwSymVJd5O4','ozIxnwQR49QBf-nlVh4DX43Io4og','ozIxnwS-lR6-SDg2mxm__RonVX1E','ozIxnwe18T640Y4wwOUWoORwgUnw','ozIxnwbcSeXdd8MFsYLNYxb0QIpQ','ozIxnwWl-WkIHt8iJ3Iyzh-5xfIg','ozIxnwSzFTQ4eMmXyDTRIRj7769M','ozIxnwQ9Wqfn3J_t7FKXMzUHpzto','ozIxnwe2OeXqREGl38eXNtqM7-LY','ozIxnwWVSJrT8Iyr6cPFmxaO7J80','ozIxnwUDNBrjXnPTfrHj54SF4IZ4','ozIxnwZNjTEW_eLwKCG_jgE0HdZ0','ozIxnweB6cZxv12xG2cb_VOooe9k','ozIxnwRPjmP9Mc3WqucDCHnq48uA','ozIxnwZQylnDW3KYDVWaY4Ge4ISA','ozIxnwcm_Dbke3HF_SYDj3B9gQi0','ozIxnwRPpINtloDmm-M7wSpWgqzQ','ozIxnwUIjtoq_jhLU0RE6qffcQBs','ozIxnwSHYYXL92olx7TBklmJbl-M','ozIxnwS7Obq5XZCODXDaemA1UnFE','ozIxnwY4weqwnmV1Re8ZU-bfRLXQ','ozIxnwfwWTgt_g_eTezBopK06k5Y','ozIxnwfgDgelI3qN9W0r_e7zbo8k','ozIxnwX38nJ1ASw_s4TspcuvaIu8','ozIxnwcvv1kfdfnhtO-psdEbvDsg','ozIxnwXV-8SidF0FByZJgH-YRDt8','ozIxnwe2ZJHfojLZMLen5PK5QEY0','ozIxnwWt5OsR25bD6Nn6UZPsoMgM','ozIxnwWJQn0wE1ibKdhPRdIZfCLI','ozIxnwW3krUOSXUFXBybW-SfGu2k','ozIxnwfguay-rSNw363n8RdsunnQ','ozIxnwSvjdptbtnjL7_87t9nc5CU','ozIxnwcMqU2Qr8P5VQqbKv7Pj6bE','ozIxnwW99ElPVDHkDk7RM3-CBdxc','ozIxnwbFc0KPaWnLjC9OSVwOTTJE','ozIxnwYIMESZiMuLoZRNxyWKUabQ','ozIxnwYoJd37Z89is9g9f69u2tlI','ozIxnwYWSKlZfZY4k2j6gMs__p9g','ozIxnwTojP3H9KHADsaam_aRgsuE','ozIxnwR4z7FW0p5m9YE4AWsaiPrU','ozIxnwZ-cFGV8k1LpB2FXeZ6GXw8','ozIxnwbmsQMNHJnriUxui-MRbi1o','ozIxnwd7kFFE-HUZXvMqF7foVjLo','ozIxnwcqQ77-YF5Aj23Aef5l3KQ0','ozIxnwTFO9BLx0NgGfeyJZgYOiM4','ozIxnwVpzaaZhhSmI-rpFoAHWAfw','ozIxnwZnLdUl8dbu8GETCZT-esrU','ozIxnwcD8grjaQf0hS8tBzNFltIQ','ozIxnwW2XpesbIdQQACryafb_eiw','ozIxnwcuGuYRpuGJ_hSAaZRJ5V20','ozIxnwYXHhupu99DsF9jKdWuVie4','ozIxnwaVFDtzfth033hSbKOA3wjE','ozIxnwXtYhiefhHp9uO2RXlaF6Q4','ozIxnwe-IDAwyYrMN1XHlsVFfa1A','ozIxnwWzG79M-iOcZkoTYxPzhwHY','ozIxnweKUz2GnlHcDVlzK2dBQnhA','ozIxnwdrjv_uUq9X-cAV25YlFo04') AND `token` = 'gh_85336bc1a8ea'  [ RunTime:0.0546s ]
+SQL: SHOW COLUMNS FROM `wx_request_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wx_request_log` (`url`,`param`,`md5`,`error_code`,`msg`,`res`,`server_ip`,`cTime`) VALUES ('https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=zaZpVbVi_DayPqbSvTc29He1VwtcWrmJ23hlHjQSHd7i9LPQBE0MAAK_KqesRiC4lKkaaj5LblIhwyzDOx0vX_UpM4u2ebinIP7o4-3k_a0L0rwKmqmpiQiCUcfsuJq4PHTgAIAXPB','{\"user_list\":[{\"openid\":\"ozIxnwZnLdUl8dbu8GETCZT-esrU\",\"lang\":\"zh-CN\"},{\"openid\":\"ozIxnwcD8grjaQf0hS8tBzNFltIQ\",\"lang\":\"zh-CN\"}]}','df11aad11f79900ee3d825d3d4d93e10','0','','array (
+  \'user_info_list\' => 
+  array (
+    0 => 
+    array (
+      \'subscribe\' => 1,
+      \'openid\' => \'ozIxnwZnLdUl8dbu8GETCZT-esrU\',
+      \'nickname\' => \'江湖\',
+      \'sex\' => 2,
+      \'language\' => \'zh_CN\',
+      \'city\' => \'Wuhan\',
+      \'province\' => \'Hubei\',
+      \'country\' => \'China\',
+      \'headimgurl\' => \'http://wx.qlogo.cn/mmopen/Q3auHgzwzM6hBbEESoZHliblVP083BIuOLrmPSPl52CliawpmKVkPnxr6SzLjYghT7n0IbT7MiaXW8TG2EUpcUfLw/0\',
+      \'subscribe_time\' => 1504618688,
+      \'remark\' => \'\',
+      \'groupid\' => 0,
+      \'tagid_list\' => 
+      array (
+      ),
+    ),
+    1 => 
+    array (
+      \'subscribe\' => 1,
+      \'openid\' => \'ozIxnwcD8grjaQf0hS8tBzNFltIQ\',
+      \'nickname\' => \'威…仕忌\',
+      \'sex\' => 2,
+      \'language\' => \'zh_CN\',
+      \'city\' => \'Tongzhou\',
+      \'province\' => \'Beijing\',
+      \'country\' => \'China\',
+      \'headimgurl\' => \'http://wx.qlogo.cn/mmopen/PiajxSqBRaEIqK6VcZmupgONRXQESpVkQ3gVb7yz4mHavCxldhtSm1wyGRZDBUmnWlt3aUCgxM4Z62u4vmra3lw/0\',
+      \'subscribe_time\' => 1504618687,
+      \'remark\' => \'\',
+      \'groupid\' => 0,
+      \'tagid_list\' => 
+      array (
+      ),
+    ),
+  ),
+)','127.0.0.1','1504662527') [ RunTime:0.0529s ]
+SQL: DELETE FROM `wx_request_log` WHERE `error_code` = '0' AND `cTime` < 1504489727 [ RunTime:0.1883s ]
+SQL: INSERT INTO `wx_user` (`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`,`experience`,`score`,`reg_time`,`status`,`is_init`,`is_audit`) VALUES ('江湖','2','zh_CN','Wuhan','Hubei','China','http://wx.qlogo.cn/mmopen/Q3auHgzwzM6hBbEESoZHliblVP083BIuOLrmPSPl52CliawpmKVkPnxr6SzLjYghT7n0IbT7MiaXW8TG2EUpcUfLw/0','1504618688','','0','100','100','1504618688','1','1','1') [ RunTime:0.0123s ]
+SQL: INSERT INTO `wx_apps_follow` (`token`,`openid`,`uid`,`syc_status`,`has_subscribe`) VALUES ('gh_85336bc1a8ea','ozIxnwZnLdUl8dbu8GETCZT-esrU','17819','2','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_user` (`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`,`experience`,`score`,`reg_time`,`status`,`is_init`,`is_audit`) VALUES ('威…仕忌','2','zh_CN','Tongzhou','Beijing','China','http://wx.qlogo.cn/mmopen/PiajxSqBRaEIqK6VcZmupgONRXQESpVkQ3gVb7yz4mHavCxldhtSm1wyGRZDBUmnWlt3aUCgxM4Z62u4vmra3lw/0','1504618687','','0','100','100','1504618687','1','1','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `wx_apps_follow` (`token`,`openid`,`uid`,`syc_status`,`has_subscribe`) VALUES ('gh_85336bc1a8ea','ozIxnwcD8grjaQf0hS8tBzNFltIQ','17820','2','1') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `wx_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT `wechat_group_id`,`id` FROM `wx_auth_group` WHERE `token` = 'gh_85336bc1a8ea' AND `manager_id` = 1 AND `type` = 1  [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f WHERE f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504627200 LIMIT 1   [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504540800 LIMIT 1   [ RunTime:0.0056s ]
+
+[ 2017-09-06T10:45:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:45:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:45:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/Apps/lists/from/3.html
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_model` WHERE `name` = 'apps' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `mp_id` FROM `wx_apps_link` WHERE ( uid='1' )  [ RunTime:0.0006s ]
+SQL: SELECT `mp_id`,count(1) as num FROM `wx_apps_link` WHERE `mp_id` IN ('16','17') GROUP BY mp_id  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_model` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`uid`,`public_name`,`public_id`,`headface_url`,`area`,`addon_config`,`addon_status`,`token`,`type`,`appid`,`secret`,`encodingaeskey`,`tips_url`,`is_bind`,`check_file`,`app_type`,`mch_id`,`partner_key`,`cert_pem`,`key_pem` FROM `wx_apps` WHERE `id` IN ('16','17') ORDER BY id desc  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:45:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/Index/main.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_addons` WHERE `status` = 1 ORDER BY id DESC  [ RunTime:0.0006s ]
+SQL: SELECT `addon_status` FROM `wx_apps_link` WHERE `uid` = 1 AND `mp_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `wx_apps_follow` WHERE `openid` IN ('ozIxnwVR8LntqRDx0c3mqn3uCz4w','ozIxnwRDg082X_4VbYzV3ZQu3HPw','ozIxnwfgd__i2jVOovBGAsCkktRQ','ozIxnwZRILJspG6w72Z2IHH1vfVg','ozIxnwT44BbcJIYyog2WxWDsg13w','ozIxnwaG1Xd19yFWoYBRnKda5RCQ','ozIxnwZZcvLxkriQRrYBaiTnB0rY','ozIxnwdzHpY3exhUNq6wTKgIvE58','ozIxnwepMJIeVUNleMf7T1fOlZKo','ozIxnwYSbkQGWT7X-akl2ZYOx2fA','ozIxnwQ7WC2BQdJ9YgfhoJzLUAzE','ozIxnwU1p84mKqwrcA-Zd6EE02k4','ozIxnwQZLgkLMg6h2CwpaA9FGEJo','ozIxnwQCNmy4x5D6AHK_JedAnLx0','ozIxnwVoyo5MQvXaPI6IRcrWGSwg','ozIxnwXrgg2gBFk9FDPd05K447pk','ozIxnwQVWsXsMX8byLTvTg8Vzp3Q','ozIxnwbbm0pg2Qzp7PCcDmnhWBS8','ozIxnwXg8e0g1RscW_eN6txzu1gI','ozIxnwUDJhSby18UGfXMXHr9TG5k','ozIxnwYJJSriaRSsKB8ts81r2WxI','ozIxnwaBBlCWtGATcnkiylq67mek','ozIxnwZmRdxw05_qeuccJRs4BFPE','ozIxnwVBWJKpF3YIEeV9Q7HAxQZg','ozIxnwUki0DeAXA--wjH6fN01VZI','ozIxnwXluuNOtTMKyAE4tnEhcxEA','ozIxnwRnG-9xmOThEcV-gal85UHw','ozIxnwcVYrKJdb2m9C7wW1sz9djA','ozIxnwQTGmC2YRl3CuGITmQHdq28','ozIxnwQbRRYqVNGtl_TfVG8I1jd4','ozIxnwbYIR-AlLZH-F60prDgp0bc','ozIxnwUjPG9y7N6v0FIMkj-jzAYA','ozIxnwTw4gc4Ge-Lg12ohK-LnP_I','ozIxnwWFHIPV-rxoqvXgHIyOey40','ozIxnwW1GeXZyXcMVSe5nvfMPwCI','ozIxnwUI6w0xiGbbgCBKuHH0Gdas','ozIxnwdj8sfCH2xsFpOjK38DIYSY','ozIxnwSE8tR96xfhUwuZRSytWx10','ozIxnwfgjeMeLbjMUGXOZIRrgquo','ozIxnwdynVDnmFW9LOrawnGNB2kc','ozIxnwR1uBOW_fnLKTZUs3vifLIA','ozIxnwas4COBBCULjeFpyAWvf7og','ozIxnwV6IiGlvR4PH9JaBXpvweyc','ozIxnwecPKpuIGOwkvFBblqZ1RLw','ozIxnwSzvgntbEsG7mQs6YE4BV-A','ozIxnwYLj7C7Rqi5LX_MD0BrwGQY','ozIxnwfah9_yMVtul8JrOiM6dDr4','ozIxnwZrU2WTqUA03vgKlPNKn4tY','ozIxnweHoqOYSXgx2vLf3mlEGhb4','ozIxnwYQN5PzpgSWSktYL4mPa-bU','ozIxnwcKM1iugRXGWn4J2vCYV6oA','ozIxnwbczPKQ42mnsFyAvd5bM4pk','ozIxnwdxAkCZIF5nd_95vkqA-INI','ozIxnwWZcAlgYg1llQUxhe9giX9o','ozIxnwd3gT2pKIj-eaUBHopNs1Qs','ozIxnwUFjtSmCeVisj82a-1QSBs8','ozIxnwQp4QlT9G7FteuD0VAvy2eo','ozIxnwTJbpqVPIPE8zaPP-_pJmXE','ozIxnwf3PDOgXKLMRU2CaEX9nc7k','ozIxnwXFNNO4L_SLbcZj2oc2ek3g','ozIxnwZbqMHOeBsdhDSkzLoXZrhA','ozIxnwQvOQ91Ba-BUdJSYVniIfMA','ozIxnwZ9oiSOsZT_Ta3KKS132nvI','ozIxnwYZynaqRM_Gj16oI0JrF1zE','ozIxnwXApij-unaGeHcN0fiFuhSA','ozIxnwdbcYPZLzwDl3Hlx8HsMLEQ','ozIxnwRDYEHoeen2Tt8rwBPc2RfI','ozIxnwaraohv1Ku8nPvRwjiMEvv8','ozIxnwUISAOtEGP3-TdFgZpPJoXo','ozIxnwcG8hVQow46tPwa1vTVINFs','ozIxnwV78Dky0Gl9D7J5rXaBcHGQ','ozIxnwcY25zbVJZxAfNoZh1FTWr4','ozIxnweKsdbXhkLfR51pqON5uciM','ozIxnwdpqjIQFjRCsacPkdMp0X4U','ozIxnwaKjxKXeL0L-_yDA84-GJHs','ozIxnwZWIiD6nPCEsoNmIEqx0oPM','ozIxnwabI7c-gDlUMsMenrv7SMF0','ozIxnwa5-NlHlF8ltk7R9HzViyMY','ozIxnwWLwW524s4J6Iktad_Dwkfc','ozIxnwarcFxr5Sa8_NFMFtpMQtdQ','ozIxnwYYD4QA2wSE9PkAw1rWeQP4','ozIxnwco3JCUBpN7rZ8Z3h7GmkV0','ozIxnwUt7YmpfaSGQ0PEB7R8Dkhg','ozIxnwV5iOa0AWOb3SSnu3MU0QEM','ozIxnwVTGizbyEyDaNqOvjHpfZSI','ozIxnwQcKiVxp7myTRP1-vvMgi5U','ozIxnwVkR0e5uPJO-WHN2_CjEwy8','ozIxnwf4-2kTMlbMCXWJY3pjiyGw','ozIxnwQJ05eK-vgyQ7160_K6iG1A','ozIxnwZGMzweo7XelYk-zGjyuPHs','ozIxnwSVDjFatLslMuC_GzwUuxGk','ozIxnwZVablhXfud3eqPNDr9MR5E','ozIxnwQPD-MhDkp86af5QruK-iaU','ozIxnwZa1gEBwJU_PaGQ7u-TtBn4','ozIxnwel8H56_bIXL7nRjf6wUEL4','ozIxnwcPzKKpqr1ng_5kv3pGsOwg','ozIxnwagt1jPbWSDoIb_8DLkWf4A','ozIxnwXvKU7m-qShr3fdgggGZj3w','ozIxnwW1YMQQSktaLywOXWiS7qmo','ozIxnwWa1DV8I8Qk1I41Jox_gG-c','ozIxnweLCh0l5B6tYrMM3ywN9Ldg','ozIxnwfAkm_1Dl21KOG3YsRFwRVc','ozIxnwREWvkMS6uIncVYr_riAd4I','ozIxnwU6EXDtkuaOPt1XpWtf7kdM','ozIxnwVZF1L_SOprV8LnQKEICNX0','ozIxnwesDUjJNgHCdAs1ctDfctWA','ozIxnwahLiYjFmJmc2EinU-OtCW8','ozIxnwUC1_pRKNeyFp0qpZVphaFU','ozIxnwQDuFc_wJ2U9WzvDrvxTagk','ozIxnwX3MEWJrrm7Ij8GoVAV0uPg','ozIxnwYJ_Mp8as_byFFgB-P6CtIU','ozIxnwRvNJSxuHYjpAM5NXcchA3o','ozIxnwWxMutgJrmS7Ccej21mbWlM','ozIxnwXtqP2Nd0uZp27PVGaA5yRE','ozIxnwSOySozblWo_oqC9f283Rk0','ozIxnwQ3E1t3Z8-SrpDRujbGM8oA','ozIxnwVnexqRMMziUp4Rb0Bay7nw','ozIxnwQnNMW11Ct463Yt84-XUTig','ozIxnwZJVdjq2zuR4lJQ9ypDw0rU','ozIxnwbHv1BIjKOMTefP8i1lJ-Uw','ozIxnwd2c9oJAIXrzaqGevPieaa8','ozIxnwfkTeZ3MBdEsxjvQqRIvuqg','ozIxnwQH8c4bu7qqtoxsJ77usc9g','ozIxnwZ_4q4TsWlvqBAm1GVWxudg','ozIxnwTKQi7WW9ZB-PeMm6GCwhkw','ozIxnwd7T83eYUFU6Uui9W62MPV4','ozIxnwWs7JJdV97AbMhaVKvBOjlc','ozIxnwT1_M5z8JuVheyRGKYqQcjA','ozIxnwRBnKdDo4dO-eyIhzcjppNk','ozIxnwUlhsGiEsiKn_W2ad4XWG44','ozIxnwd8LXdvFVYyD0eVboW7gyvY','ozIxnwXIsgMWHJvKEtKSZHdLI7fU','ozIxnwcDgR6qJngYHXcXypfjkz4U','ozIxnwUX9UTO3yP6Cy9e1LppDoRc','ozIxnwTnZB9dyDWAjZcD2akshh-8','ozIxnwc_Yqn5ZlahD8uIgobgCIx4','ozIxnwWHU7kTaGCcflFQUhKjDDdM','ozIxnwa6ki7v1vufjanjTJYEMxcw','ozIxnwYoA25wSY-rfhTITZ3JcSjQ','ozIxnwYbUUe1W8jSSyafm6GRPx-c','ozIxnwRMEAKin7V1F4qFgq_CKNtA','ozIxnwZhWsLX9FKOO0lpULbk0sUI','ozIxnwXksxm8N62iwCwj5-NagHKw','ozIxnwaZZrfm_swNztQVCd_G4iH8','ozIxnwRq-4FZmf9c7f9zcFWJ3S6c','ozIxnwQQY5FFXb6_DgwSymVJd5O4','ozIxnwQR49QBf-nlVh4DX43Io4og','ozIxnwS-lR6-SDg2mxm__RonVX1E','ozIxnwe18T640Y4wwOUWoORwgUnw','ozIxnwbcSeXdd8MFsYLNYxb0QIpQ','ozIxnwWl-WkIHt8iJ3Iyzh-5xfIg','ozIxnwSzFTQ4eMmXyDTRIRj7769M','ozIxnwQ9Wqfn3J_t7FKXMzUHpzto','ozIxnwe2OeXqREGl38eXNtqM7-LY','ozIxnwWVSJrT8Iyr6cPFmxaO7J80','ozIxnwUDNBrjXnPTfrHj54SF4IZ4','ozIxnwZNjTEW_eLwKCG_jgE0HdZ0','ozIxnweB6cZxv12xG2cb_VOooe9k','ozIxnwRPjmP9Mc3WqucDCHnq48uA','ozIxnwZQylnDW3KYDVWaY4Ge4ISA','ozIxnwcm_Dbke3HF_SYDj3B9gQi0','ozIxnwRPpINtloDmm-M7wSpWgqzQ','ozIxnwUIjtoq_jhLU0RE6qffcQBs','ozIxnwSHYYXL92olx7TBklmJbl-M','ozIxnwS7Obq5XZCODXDaemA1UnFE','ozIxnwY4weqwnmV1Re8ZU-bfRLXQ','ozIxnwfwWTgt_g_eTezBopK06k5Y','ozIxnwfgDgelI3qN9W0r_e7zbo8k','ozIxnwX38nJ1ASw_s4TspcuvaIu8','ozIxnwcvv1kfdfnhtO-psdEbvDsg','ozIxnwXV-8SidF0FByZJgH-YRDt8','ozIxnwe2ZJHfojLZMLen5PK5QEY0','ozIxnwWt5OsR25bD6Nn6UZPsoMgM','ozIxnwWJQn0wE1ibKdhPRdIZfCLI','ozIxnwW3krUOSXUFXBybW-SfGu2k','ozIxnwfguay-rSNw363n8RdsunnQ','ozIxnwSvjdptbtnjL7_87t9nc5CU','ozIxnwcMqU2Qr8P5VQqbKv7Pj6bE','ozIxnwW99ElPVDHkDk7RM3-CBdxc','ozIxnwbFc0KPaWnLjC9OSVwOTTJE','ozIxnwYIMESZiMuLoZRNxyWKUabQ','ozIxnwYoJd37Z89is9g9f69u2tlI','ozIxnwYWSKlZfZY4k2j6gMs__p9g','ozIxnwTojP3H9KHADsaam_aRgsuE','ozIxnwR4z7FW0p5m9YE4AWsaiPrU','ozIxnwZ-cFGV8k1LpB2FXeZ6GXw8','ozIxnwbmsQMNHJnriUxui-MRbi1o','ozIxnwd7kFFE-HUZXvMqF7foVjLo','ozIxnwcqQ77-YF5Aj23Aef5l3KQ0','ozIxnwTFO9BLx0NgGfeyJZgYOiM4','ozIxnwVpzaaZhhSmI-rpFoAHWAfw','ozIxnwZnLdUl8dbu8GETCZT-esrU','ozIxnwcD8grjaQf0hS8tBzNFltIQ','ozIxnwW2XpesbIdQQACryafb_eiw','ozIxnwcuGuYRpuGJ_hSAaZRJ5V20','ozIxnwYXHhupu99DsF9jKdWuVie4','ozIxnwaVFDtzfth033hSbKOA3wjE','ozIxnwXtYhiefhHp9uO2RXlaF6Q4','ozIxnwe-IDAwyYrMN1XHlsVFfa1A','ozIxnwWzG79M-iOcZkoTYxPzhwHY','ozIxnweKUz2GnlHcDVlzK2dBQnhA','ozIxnwdrjv_uUq9X-cAV25YlFo04') AND `token` = 'gh_85336bc1a8ea'  [ RunTime:0.0019s ]
+SQL: SELECT `wechat_group_id`,`id` FROM `wx_auth_group` WHERE `token` = 'gh_85336bc1a8ea' AND `manager_id` = 1 AND `type` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f WHERE f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 LIMIT 1   [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504627200 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504540800 LIMIT 1   [ RunTime:0.0045s ]
+
+[ 2017-09-06T11:08:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/Material/material_lists.html&mdm=60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_material_news` [ RunTime:0.0005s ]
+
+[ 2017-09-06T11:10:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/home/index/main.html&mdm=14
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_addons` WHERE `status` = 1 ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SELECT `addon_status` FROM `wx_apps_link` WHERE `uid` = 1 AND `mp_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `wx_apps_follow` WHERE `openid` IN ('ozIxnwVR8LntqRDx0c3mqn3uCz4w','ozIxnwRDg082X_4VbYzV3ZQu3HPw','ozIxnwfgd__i2jVOovBGAsCkktRQ','ozIxnwZRILJspG6w72Z2IHH1vfVg','ozIxnwT44BbcJIYyog2WxWDsg13w','ozIxnwaG1Xd19yFWoYBRnKda5RCQ','ozIxnwZZcvLxkriQRrYBaiTnB0rY','ozIxnwdzHpY3exhUNq6wTKgIvE58','ozIxnwepMJIeVUNleMf7T1fOlZKo','ozIxnwYSbkQGWT7X-akl2ZYOx2fA','ozIxnwQ7WC2BQdJ9YgfhoJzLUAzE','ozIxnwU1p84mKqwrcA-Zd6EE02k4','ozIxnwQZLgkLMg6h2CwpaA9FGEJo','ozIxnwQCNmy4x5D6AHK_JedAnLx0','ozIxnwVoyo5MQvXaPI6IRcrWGSwg','ozIxnwXrgg2gBFk9FDPd05K447pk','ozIxnwQVWsXsMX8byLTvTg8Vzp3Q','ozIxnwbbm0pg2Qzp7PCcDmnhWBS8','ozIxnwXg8e0g1RscW_eN6txzu1gI','ozIxnwUDJhSby18UGfXMXHr9TG5k','ozIxnwYJJSriaRSsKB8ts81r2WxI','ozIxnwaBBlCWtGATcnkiylq67mek','ozIxnwZmRdxw05_qeuccJRs4BFPE','ozIxnwVBWJKpF3YIEeV9Q7HAxQZg','ozIxnwUki0DeAXA--wjH6fN01VZI','ozIxnwXluuNOtTMKyAE4tnEhcxEA','ozIxnwRnG-9xmOThEcV-gal85UHw','ozIxnwcVYrKJdb2m9C7wW1sz9djA','ozIxnwQTGmC2YRl3CuGITmQHdq28','ozIxnwQbRRYqVNGtl_TfVG8I1jd4','ozIxnwbYIR-AlLZH-F60prDgp0bc','ozIxnwUjPG9y7N6v0FIMkj-jzAYA','ozIxnwTw4gc4Ge-Lg12ohK-LnP_I','ozIxnwWFHIPV-rxoqvXgHIyOey40','ozIxnwW1GeXZyXcMVSe5nvfMPwCI','ozIxnwUI6w0xiGbbgCBKuHH0Gdas','ozIxnwdj8sfCH2xsFpOjK38DIYSY','ozIxnwSE8tR96xfhUwuZRSytWx10','ozIxnwfgjeMeLbjMUGXOZIRrgquo','ozIxnwdynVDnmFW9LOrawnGNB2kc','ozIxnwR1uBOW_fnLKTZUs3vifLIA','ozIxnwas4COBBCULjeFpyAWvf7og','ozIxnwV6IiGlvR4PH9JaBXpvweyc','ozIxnwecPKpuIGOwkvFBblqZ1RLw','ozIxnwSzvgntbEsG7mQs6YE4BV-A','ozIxnwYLj7C7Rqi5LX_MD0BrwGQY','ozIxnwfah9_yMVtul8JrOiM6dDr4','ozIxnwZrU2WTqUA03vgKlPNKn4tY','ozIxnweHoqOYSXgx2vLf3mlEGhb4','ozIxnwYQN5PzpgSWSktYL4mPa-bU','ozIxnwcKM1iugRXGWn4J2vCYV6oA','ozIxnwbczPKQ42mnsFyAvd5bM4pk','ozIxnwdxAkCZIF5nd_95vkqA-INI','ozIxnwWZcAlgYg1llQUxhe9giX9o','ozIxnwd3gT2pKIj-eaUBHopNs1Qs','ozIxnwUFjtSmCeVisj82a-1QSBs8','ozIxnwQp4QlT9G7FteuD0VAvy2eo','ozIxnwTJbpqVPIPE8zaPP-_pJmXE','ozIxnwf3PDOgXKLMRU2CaEX9nc7k','ozIxnwXFNNO4L_SLbcZj2oc2ek3g','ozIxnwZbqMHOeBsdhDSkzLoXZrhA','ozIxnwQvOQ91Ba-BUdJSYVniIfMA','ozIxnwZ9oiSOsZT_Ta3KKS132nvI','ozIxnwYZynaqRM_Gj16oI0JrF1zE','ozIxnwXApij-unaGeHcN0fiFuhSA','ozIxnwdbcYPZLzwDl3Hlx8HsMLEQ','ozIxnwRDYEHoeen2Tt8rwBPc2RfI','ozIxnwaraohv1Ku8nPvRwjiMEvv8','ozIxnwUISAOtEGP3-TdFgZpPJoXo','ozIxnwcG8hVQow46tPwa1vTVINFs','ozIxnwV78Dky0Gl9D7J5rXaBcHGQ','ozIxnwcY25zbVJZxAfNoZh1FTWr4','ozIxnweKsdbXhkLfR51pqON5uciM','ozIxnwdpqjIQFjRCsacPkdMp0X4U','ozIxnwaKjxKXeL0L-_yDA84-GJHs','ozIxnwZWIiD6nPCEsoNmIEqx0oPM','ozIxnwabI7c-gDlUMsMenrv7SMF0','ozIxnwa5-NlHlF8ltk7R9HzViyMY','ozIxnwWLwW524s4J6Iktad_Dwkfc','ozIxnwarcFxr5Sa8_NFMFtpMQtdQ','ozIxnwYYD4QA2wSE9PkAw1rWeQP4','ozIxnwco3JCUBpN7rZ8Z3h7GmkV0','ozIxnwUt7YmpfaSGQ0PEB7R8Dkhg','ozIxnwV5iOa0AWOb3SSnu3MU0QEM','ozIxnwVTGizbyEyDaNqOvjHpfZSI','ozIxnwQcKiVxp7myTRP1-vvMgi5U','ozIxnwVkR0e5uPJO-WHN2_CjEwy8','ozIxnwf4-2kTMlbMCXWJY3pjiyGw','ozIxnwQJ05eK-vgyQ7160_K6iG1A','ozIxnwZGMzweo7XelYk-zGjyuPHs','ozIxnwSVDjFatLslMuC_GzwUuxGk','ozIxnwZVablhXfud3eqPNDr9MR5E','ozIxnwQPD-MhDkp86af5QruK-iaU','ozIxnwZa1gEBwJU_PaGQ7u-TtBn4','ozIxnwel8H56_bIXL7nRjf6wUEL4','ozIxnwcPzKKpqr1ng_5kv3pGsOwg','ozIxnwagt1jPbWSDoIb_8DLkWf4A','ozIxnwXvKU7m-qShr3fdgggGZj3w','ozIxnwW1YMQQSktaLywOXWiS7qmo','ozIxnwWa1DV8I8Qk1I41Jox_gG-c','ozIxnweLCh0l5B6tYrMM3ywN9Ldg','ozIxnwfAkm_1Dl21KOG3YsRFwRVc','ozIxnwREWvkMS6uIncVYr_riAd4I','ozIxnwU6EXDtkuaOPt1XpWtf7kdM','ozIxnwVZF1L_SOprV8LnQKEICNX0','ozIxnwesDUjJNgHCdAs1ctDfctWA','ozIxnwahLiYjFmJmc2EinU-OtCW8','ozIxnwUC1_pRKNeyFp0qpZVphaFU','ozIxnwQDuFc_wJ2U9WzvDrvxTagk','ozIxnwX3MEWJrrm7Ij8GoVAV0uPg','ozIxnwYJ_Mp8as_byFFgB-P6CtIU','ozIxnwRvNJSxuHYjpAM5NXcchA3o','ozIxnwWxMutgJrmS7Ccej21mbWlM','ozIxnwXtqP2Nd0uZp27PVGaA5yRE','ozIxnwSOySozblWo_oqC9f283Rk0','ozIxnwQ3E1t3Z8-SrpDRujbGM8oA','ozIxnwVnexqRMMziUp4Rb0Bay7nw','ozIxnwQnNMW11Ct463Yt84-XUTig','ozIxnwZJVdjq2zuR4lJQ9ypDw0rU','ozIxnwbHv1BIjKOMTefP8i1lJ-Uw','ozIxnwd2c9oJAIXrzaqGevPieaa8','ozIxnwfkTeZ3MBdEsxjvQqRIvuqg','ozIxnwQH8c4bu7qqtoxsJ77usc9g','ozIxnwZ_4q4TsWlvqBAm1GVWxudg','ozIxnwTKQi7WW9ZB-PeMm6GCwhkw','ozIxnwd7T83eYUFU6Uui9W62MPV4','ozIxnwWs7JJdV97AbMhaVKvBOjlc','ozIxnwT1_M5z8JuVheyRGKYqQcjA','ozIxnwRBnKdDo4dO-eyIhzcjppNk','ozIxnwUlhsGiEsiKn_W2ad4XWG44','ozIxnwd8LXdvFVYyD0eVboW7gyvY','ozIxnwXIsgMWHJvKEtKSZHdLI7fU','ozIxnwcDgR6qJngYHXcXypfjkz4U','ozIxnwUX9UTO3yP6Cy9e1LppDoRc','ozIxnwTnZB9dyDWAjZcD2akshh-8','ozIxnwc_Yqn5ZlahD8uIgobgCIx4','ozIxnwWHU7kTaGCcflFQUhKjDDdM','ozIxnwa6ki7v1vufjanjTJYEMxcw','ozIxnwYoA25wSY-rfhTITZ3JcSjQ','ozIxnwYbUUe1W8jSSyafm6GRPx-c','ozIxnwRMEAKin7V1F4qFgq_CKNtA','ozIxnwZhWsLX9FKOO0lpULbk0sUI','ozIxnwXksxm8N62iwCwj5-NagHKw','ozIxnwaZZrfm_swNztQVCd_G4iH8','ozIxnwRq-4FZmf9c7f9zcFWJ3S6c','ozIxnwQQY5FFXb6_DgwSymVJd5O4','ozIxnwQR49QBf-nlVh4DX43Io4og','ozIxnwS-lR6-SDg2mxm__RonVX1E','ozIxnwe18T640Y4wwOUWoORwgUnw','ozIxnwbcSeXdd8MFsYLNYxb0QIpQ','ozIxnwWl-WkIHt8iJ3Iyzh-5xfIg','ozIxnwSzFTQ4eMmXyDTRIRj7769M','ozIxnwQ9Wqfn3J_t7FKXMzUHpzto','ozIxnwe2OeXqREGl38eXNtqM7-LY','ozIxnwWVSJrT8Iyr6cPFmxaO7J80','ozIxnwUDNBrjXnPTfrHj54SF4IZ4','ozIxnwZNjTEW_eLwKCG_jgE0HdZ0','ozIxnweB6cZxv12xG2cb_VOooe9k','ozIxnwRPjmP9Mc3WqucDCHnq48uA','ozIxnwZQylnDW3KYDVWaY4Ge4ISA','ozIxnwcm_Dbke3HF_SYDj3B9gQi0','ozIxnwRPpINtloDmm-M7wSpWgqzQ','ozIxnwUIjtoq_jhLU0RE6qffcQBs','ozIxnwSHYYXL92olx7TBklmJbl-M','ozIxnwS7Obq5XZCODXDaemA1UnFE','ozIxnwY4weqwnmV1Re8ZU-bfRLXQ','ozIxnwfwWTgt_g_eTezBopK06k5Y','ozIxnwfgDgelI3qN9W0r_e7zbo8k','ozIxnwX38nJ1ASw_s4TspcuvaIu8','ozIxnwcvv1kfdfnhtO-psdEbvDsg','ozIxnwXV-8SidF0FByZJgH-YRDt8','ozIxnwe2ZJHfojLZMLen5PK5QEY0','ozIxnwWt5OsR25bD6Nn6UZPsoMgM','ozIxnwWJQn0wE1ibKdhPRdIZfCLI','ozIxnwW3krUOSXUFXBybW-SfGu2k','ozIxnwfguay-rSNw363n8RdsunnQ','ozIxnwSvjdptbtnjL7_87t9nc5CU','ozIxnwcMqU2Qr8P5VQqbKv7Pj6bE','ozIxnwW99ElPVDHkDk7RM3-CBdxc','ozIxnwbFc0KPaWnLjC9OSVwOTTJE','ozIxnwYIMESZiMuLoZRNxyWKUabQ','ozIxnwYoJd37Z89is9g9f69u2tlI','ozIxnwYWSKlZfZY4k2j6gMs__p9g','ozIxnwTojP3H9KHADsaam_aRgsuE','ozIxnwR4z7FW0p5m9YE4AWsaiPrU','ozIxnwZ-cFGV8k1LpB2FXeZ6GXw8','ozIxnwbmsQMNHJnriUxui-MRbi1o','ozIxnwd7kFFE-HUZXvMqF7foVjLo','ozIxnwcqQ77-YF5Aj23Aef5l3KQ0','ozIxnwTFO9BLx0NgGfeyJZgYOiM4','ozIxnwVpzaaZhhSmI-rpFoAHWAfw','ozIxnwZnLdUl8dbu8GETCZT-esrU','ozIxnwcD8grjaQf0hS8tBzNFltIQ','ozIxnwW2XpesbIdQQACryafb_eiw','ozIxnwcuGuYRpuGJ_hSAaZRJ5V20','ozIxnwYXHhupu99DsF9jKdWuVie4','ozIxnwaVFDtzfth033hSbKOA3wjE','ozIxnwXtYhiefhHp9uO2RXlaF6Q4','ozIxnwe-IDAwyYrMN1XHlsVFfa1A','ozIxnwWzG79M-iOcZkoTYxPzhwHY','ozIxnweKUz2GnlHcDVlzK2dBQnhA','ozIxnwdrjv_uUq9X-cAV25YlFo04') AND `token` = 'gh_85336bc1a8ea'  [ RunTime:0.0052s ]
+SQL: SELECT `wechat_group_id`,`id` FROM `wx_auth_group` WHERE `token` = 'gh_85336bc1a8ea' AND `manager_id` = 1 AND `type` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f WHERE f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504627200 LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `wx_apps_follow` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_apps_follow as f INNER JOIN wx_user as u ON f.uid=u.uid  WHERE `status` = 1 AND f.token = 'gh_85336bc1a8ea' AND f.has_subscribe = 1 AND u.reg_time > 1504540800 LIMIT 1   [ RunTime:0.0054s ]
+
+[ 2017-09-06T14:00:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+SQL: SHOW COLUMNS FROM `wx_auth_group_access` [ RunTime:0.0093s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wx_auth_group_access a INNER JOIN wx_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0233s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wx_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '59af52f543465' LIMIT 1   [ RunTime:0.0076s ]
+
+[ 2017-09-06T14:02:34+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504677754','http://localhost/myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+POST: array (
+  \'username\' => \'ligeng\',
+  \'password\' => \'123456\',
+); 
+') [ RunTime:0.1017s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'ligeng' LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-09-06T14:03:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504677805','http://localhost/myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+POST: array (
+  \'username\' => \'hbyczsl\',
+  \'password\' => \'zsl3243867\',
+); 
+') [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'hbyczsl' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wx_user` SET `login_count`=`login_count`+1,`last_login_time`='1504677805',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.2990s ]
+
+[ 2017-09-06T16:09:51+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+SQL: SHOW COLUMNS FROM `wx_auth_group_access` [ RunTime:0.1304s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wx_auth_group_access a INNER JOIN wx_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0450s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0063s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wx_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '59af52f543465' LIMIT 1   [ RunTime:0.0143s ]
+
+[ 2017-09-06T16:10:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+SQL: INSERT INTO `wx_admin_log` (`ip`,`mod`,`cTime`,`content`) VALUES ('127.0.0.1','Home','1504685438','http://localhost/myGitRepository/wephp/index.php?s=/w16/Home/User/login.html
+POST: array (
+  \'username\' => \'hbyczsl\',
+  \'password\' => \'zsl3243867\',
+); 
+') [ RunTime:0.1573s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wx_user` WHERE `nickname` = 'hbyczsl' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wx_user` SET `login_count`=`login_count`+1,`last_login_time`='1504685438',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0990s ]
+

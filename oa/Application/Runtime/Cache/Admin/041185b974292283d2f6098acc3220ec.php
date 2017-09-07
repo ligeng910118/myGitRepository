@@ -22,7 +22,7 @@
 			<div class="clear"> </div>
 	<div class="avtar">
 	</div>
-			<form method="post" action="/oa/index.php/Index/loginAction">
+			<form method="post" action="/myGitRepository/oa/index.php/Index/loginAction">
 					<input type="text" class="text" name="email" placeholder="邮件" >
 						<div class="key">
 					<input type="password" name="password" placeholder="密码">

@@ -12,6 +12,8 @@ class IndexController extends Controller {
     
     public function login()
     {
+        if($_SESSION)
+            unset($_SESSION);
     	$this->display();
     }
 

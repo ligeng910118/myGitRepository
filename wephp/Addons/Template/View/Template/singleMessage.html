@@ -1,0 +1,87 @@
+<extend name="Home@Base/common" />
+
+<block name="body">
+  <div class="span9 page_message">
+  
+    <section id="contents"> <include file="Home@Addons/_nav" />
+
+      <!-- 数据列表 -->
+      <div id="main">
+	 	<div class="mainLeft">
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/lists.html">模板列表</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/messageManage.html">消息管理</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/message.html">单发消息</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/groupMessage.html">群发消息</a></div>
+		</div>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#getValue').change(function(){
+				//alert('ok');
+				var template_id = $('#getValue option:selected').val();
+              	var url = window.location.href;
+				var sendUrl = url.replace(/singleMessage/,"singleMessageTemplate");
+				//alert(sendUrl);
+				$('#template_id').val(template_id)
+				$.ajax({
+				    url:sendUrl,
+				    type: 'post',
+				    dataType: 'json',
+				    data: {
+				          'template_id':template_id,
+				    },
+				    success: function(data){
+				    	
+				    	var jsonLength = getHsonLength(data);
+				    	//alert(data[1][1]);
+				        var nr = '';
+				        for(var i=1;i<=jsonLength;i++)
+				      		nr += data[i][0]+'：<br><input type="text" class="text input-large" name='+data[i][1]+' value="" ><br />';
+				      		$('#templateNum').html(nr);
+				    },
+				 })
+			})
+		});
+		function getHsonLength(json){
+            var jsonLength=0;
+            for (var i in json) {
+                jsonLength++;
+            }
+            return jsonLength;
+        }
+		</script>
+	 	<div class="mainRight">
+	 		<div class="rightTitle">单发消息</div>
+	 		<div>
+	 		<if condition="$Think.get.id eq null">
+	 			<div>单发模板：
+	 				<select id="getValue">
+	 					<foreach name="list" item="vo" key="k">
+		 					<option value="{$vo.template_id}">{$vo.title}</option>
+	 					</foreach>
+	 				</select>
+	 			</div>
+	 			</if>
+	 			<div>
+	 			<form method="post" action="index.php?s=/w16/Template/Template/singleMessageAction">
+	 			<input type="hidden" id="template_id" name="template_id" value="{$list[0].template_id}" />
+	 				<input type="hidden" name="project" value="{$address}" />
+	 				首标题: <br><input type="text" class="text input-large" name="first" value="{$data.first}" /><br>
+	 				<div id="templateNum">
+	 				
+					股票名称 ：<br><input type="text" class="text input-large" name="keyword1" value="{$data.keyword1}" ><br />
+					股票代码 ：<br><input type="text" class="text input-large" name="keyword2" value="{$data.keyword2}" ><br />
+					操作类型 ：<br><input type="text" class="text input-large" name="keyword3" value="{$data.keyword3}" ><br />
+					买入价格 ：<br><input type="text" class="text input-large" name="keyword4" value="{$data.keyword4}" ><br />
+					交易时间 ：<br><input type="text" class="text input-large" name="keyword5" value="{$data.keyword5}" ><br />
+	 				</div>
+	 				尾备注：<br><input type="text" class="text input-large" name="remark" value="{$data.remark}"><br />
+	 				详情url(必须为http://开头)：<br><input type="text" class="text input-large" name="url" value="{$data.url}"><br />
+	 				<input class="btn" type="submit" value="提交" />
+	 				</form>
+	 			</div>
+	 		</div>
+	 	</div>
+	</div>
+    </section>
+  </div>
+</block>

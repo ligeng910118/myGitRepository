@@ -1,0 +1,36 @@
+[ 2017-09-05T17:11:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:25:31+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:25:33+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:34:53+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:34:54+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:46:18+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:46:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:48:00+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:48:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:48:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:48:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+
+[ 2017-09-05T17:48:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w0/Home/User/login/from/1.html
+ERR: Call to undefined function curl_init()
+

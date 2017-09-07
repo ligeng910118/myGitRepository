@@ -1,0 +1,66 @@
+[ 2017-09-07T11:03:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'id' at row 1
+
+[ 2017-09-07T11:05:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'id' at row 1
+
+[ 2017-09-07T15:37:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:37:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:39:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:46:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-09-07T15:46:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: Undefined class constant 'subStrAction'
+
+[ 2017-09-07T15:46:55+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-09-07T15:47:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: Undefined class constant 'subStrAction'
+
+[ 2017-09-07T15:47:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: Undefined class constant 'subStrAction'
+
+[ 2017-09-07T15:48:08+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-09-07T15:48:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:49:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:52:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/groupMessage.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T15:53:05+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/message.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'w16' in 'where clause'
+
+[ 2017-09-07T16:06:32+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-09-07T16:06:36+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-09-07T16:06:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-09-07T16:07:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w17/Template/index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-09-07T16:08:14+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w17/Template/index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-09-07T16:08:51+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/message.html
+ERR: Cannot use object of type stdClass as array
+
+[ 2017-09-07T16:09:24+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/message.html
+ERR: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+

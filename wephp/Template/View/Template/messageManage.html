@@ -1,0 +1,31 @@
+<extend name="Home@Base/common" />
+<block name="body">
+  <div class="span9 page_message">
+  
+    <section id="contents"> <include file="Home@Addons/_nav" />
+
+      <!-- 数据列表 -->
+      <div id="main">
+	 	<div class="mainLeft">
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/lists.html">模板列表</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/messageManage.html">消息管理</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/singleMessage.html">单发消息</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/groupMessage.html">群发消息</a></div>
+		</div>
+	 	<div class="mainRight">
+	 		<div class="rightTitle">消息管理</div>
+	 		<foreach name="list" item="vo">
+	 		<div class="listRight messageManage">
+	 			<div>标题：{$vo.first}</div>
+	 			<div>内容一：{$vo.keynote1}</div>
+	 			<div>内容二：{$vo.keynote2}</div>
+	 			<div>内容三：{$vo.keynote3}</div>
+	 			<div>备注：{$vo.remark}</div>
+	 			<div><a href="index.php?s=/w16/Template/Template/singleMessage/id/{$vo.id}" class="btn pull-left">单发</a></div>
+	 		</div>
+	 		</foreach>
+	 	</div>
+	</div>
+    </section>
+  </div>
+</block>

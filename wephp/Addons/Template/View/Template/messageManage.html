@@ -1,0 +1,38 @@
+<extend name="Home@Base/common" />
+<block name="body">
+  <div class="span9 page_message">
+  
+    <section id="contents"> <include file="Home@Addons/_nav" />
+
+      <!-- 数据列表 -->
+      <div id="main">
+	 	<div class="mainLeft">
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/lists.html">模板列表</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/messageManage.html">消息管理</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/message.html">单发消息</a></div>
+			<div class="listLeft"><a href="index.php?s=/{$address}/Template/Template/groupMessage.html">群发消息</a></div>
+		</div>
+	 	<div class="mainRight">
+	 		<div class="rightTitle">消息管理<div class="pull-right"><a href="index.php?s=/{$address}/Template/Template/singleMessage" class="btn pull-left">添加</a></div></div>
+	 		<div class="rightContent">
+	 			
+	 			<div class="listRight">标题</div>
+	 			<div class="listRight">模板id</div>
+	 			<div class="listRight">删除</div>
+	 		</div>
+		 	<body>
+		 		<foreach name="list" item="vo">
+		 		<div class="rightContent">
+		 			<div class="listRight">{$vo.first}</div>
+		 			<div class="listRight">{$vo.template_id}</div>
+		 			<a href="index.php?s=/{$address}/Template/Template/deleteData/id/{$vo.id}" class="listRight btn">删除</a>	 			
+		 		</div>
+		 		</foreach>
+		 		</body>
+	 		</table>
+	 	
+	 	</div>
+	</div>
+    </section>
+  </div>
+</block>

@@ -1,0 +1,33 @@
+<extend name="Home@Base/common" />
+<block name="body">
+  <div class="span9 page_message">
+  
+    <section id="contents"> <include file="Home@Addons/_nav" />
+
+      <!-- 数据列表 -->
+      <div id="main">
+	 	<div class="mainLeft">
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/lists.html">模板列表</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/messageManage.html">消息管理</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/singleMessage.html">单发消息</a></div>
+			<div class="listLeft"><a href="index.php?s=/w16/Template/Template/groupMessage.html">群发消息</a></div>
+		</div>
+	 	<div class="mainRight">
+	 		<div class="rightTitle">模板列表</div>
+	 		<div class="rightContent">
+	 			<div class="listRight">序号</div>
+	 			<div class="listRight">标题</div>
+	 			<div class="listRight">模板id</div>
+	 		</div>
+	 		<foreach name="list" item="vo" key="k">
+		 		<div class="rightContent">
+		 			<div class="listRight">{$k+1}</div>
+		 			<div class="listRight">{$vo.title}</div>
+		 			<div class="listRight">{$vo.template_id}</div>
+		 		</div>
+	 		</foreach>
+	 	</div>
+	</div>
+    </section>
+  </div>
+</block>

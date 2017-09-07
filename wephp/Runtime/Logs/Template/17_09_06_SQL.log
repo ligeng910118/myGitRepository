@@ -1,0 +1,1668 @@
+[ 2017-09-06T09:48:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T09:50:25+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_template` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.3365s ]
+
+[ 2017-09-06T10:01:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:16:08+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:16:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:17:12+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:17:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:17:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:18:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664281','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:18:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664285','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:18:07+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664286','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:18:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664288','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:18:11+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664290','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:18:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T10:20:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:20:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:20:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:21:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:21:35+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664495','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:22:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:22:34+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664553','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:23:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T10:23:12+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664592','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:24:04+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:24:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664649','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:24:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664687','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:27:50+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:28:15+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664894','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:28:51+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:28:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504664937','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:30:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:31:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665079','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:31:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T10:31:50+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/Template.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665110','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/Template.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:31:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:32:00+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665120','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:32:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665139','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:32:36+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665155','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:32:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:32:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665161','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:32:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665164','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:33:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665223','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T10:33:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665225','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:33:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665226','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:34:36+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:34:54+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665293','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:34:57+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665297','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0006s ]
+
+[ 2017-09-06T10:36:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:38:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:39:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665557','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T10:39:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665560','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:39:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665596','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+  \'first\' => \'投顾服务通知\',
+  \'keyword1\' => \'投顾服务通知\',
+  \'keyword2\' => \'投顾服务通知\',
+  \'remark\' => \'投顾服务通知\',
+  \'url\' => \'http://www.baidu.com\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:40:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665642','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:40:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665645','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:41:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665688','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+  \'first\' => \'投顾服务通知\',
+  \'keyword1\' => \'投顾服务通知\',
+  \'keyword2\' => \'投顾服务通知\',
+  \'remark\' => \'投顾服务通知\',
+  \'url\' => \'http://www.baidu.com\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:43:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665821','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:43:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665822','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:43:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665828','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+  \'first\' => \'投顾服务通知\',
+  \'keyword1\' => \'投顾服务通知\',
+  \'keyword2\' => \'投顾服务通知\',
+  \'remark\' => \'投顾服务通知\',
+  \'url\' => \'http://www.baidu.com\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:45:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504665901','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+  \'first\' => \'投顾服务通知\',
+  \'keyword1\' => \'投顾服务通知\',
+  \'keyword2\' => \'投顾服务通知\',
+  \'remark\' => \'投顾服务通知\',
+  \'url\' => \'http://www.baidu.com\',
+); 
+') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_template` (template_id,first,keyword1,keyword2,remark,url) VALUES ('YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w','投顾服务通知','投顾服务通知','投顾服务通知','投顾服务通知','http://www.baidu.com') [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:45:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T10:45:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:51:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:51:46+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:52:49+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T10:55:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:59:50+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T10:59:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:01:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:06:13+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:07:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:07:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:10:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T11:10:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:10:55+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T11:11:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:11:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T11:14:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/lists.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T11:14:18+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:14:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:14:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:14:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:15:15+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:18:31+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:18:36+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:40:57+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T11:57:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T11:57:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:03:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0207s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:03:33+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:03:55+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504677834','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate/id/56
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:04:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T14:04:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:04:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:09:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678168','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'first\' => \'收盘了\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:11:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:11:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678307','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:14:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T14:14:34+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T14:15:15+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678515','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:15:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678529','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+SQL: UPDATE `wx_template` SET `template_id`='MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI',`first`='收盘了',`keyword1`='在线诊股',`keyword2`='马上预约',`keyword3`='立即介入',`keyword4`='推荐买点尾盘',`keyword5`='沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。',`remark`='收盘了，你的个股操作如何？预知后市行情，点击为你解读！',`url`='http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww' WHERE `id` = 56 [ RunTime:0.0713s ]
+
+[ 2017-09-06T14:15:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:15:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678552','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了111111\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0005s ]
+SQL: UPDATE `wx_template` SET `template_id`='MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI',`first`='收盘了111111',`keyword1`='在线诊股',`keyword2`='马上预约',`keyword3`='立即介入',`keyword4`='推荐买点尾盘',`keyword5`='沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。',`remark`='收盘了，你的个股操作如何？预知后市行情，点击为你解读！',`url`='http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww' WHERE `id` = 56 [ RunTime:0.0006s ]
+
+[ 2017-09-06T14:16:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678586','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了111111\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0003s ]
+SQL: UPDATE `wx_template` SET `template_id`='MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI',`first`='收盘了111111',`keyword1`='在线诊股',`keyword2`='马上预约',`keyword3`='立即介入',`keyword4`='推荐买点尾盘',`keyword5`='沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。',`remark`='收盘了，你的个股操作如何？预知后市行情，点击为你解读！',`url`='http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww' WHERE `id` = 56 [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:18:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678682','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了22222\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:18:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:18:30+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:18:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678718','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+  \'id\' => \'56\',
+  \'first\' => \'收盘了22222\',
+  \'keyword1\' => \'在线诊股\',
+  \'keyword2\' => \'马上预约\',
+  \'keyword3\' => \'立即介入\',
+  \'keyword4\' => \'推荐买点尾盘\',
+  \'keyword5\' => \'沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。\',
+  \'remark\' => \'收盘了，你的个股操作如何？预知后市行情，点击为你解读！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+SQL: UPDATE `wx_template` SET `template_id`='MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI',`first`='收盘了22222',`keyword1`='在线诊股',`keyword2`='马上预约',`keyword3`='立即介入',`keyword4`='推荐买点尾盘',`keyword5`='沪指今日延续上涨，收盘小幅上扬0.37%，中心不断上移，成交量积极放大，后市依然具有上攻动能。盘中一部分资金从煤炭钢铁板块分流，造成了煤炭钢铁板块今日的弱势，不过这也恰好是一个低吸机会。周期有深度的上涨逻辑，可以继续布局。',`remark`='收盘了，你的个股操作如何？预知后市行情，点击为你解读！',`url`='http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww' WHERE `id` = 56 [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:18:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:18:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:21:04+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:21:05+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/deleteData/id/56
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: DELETE FROM `wx_template` WHERE `id` = 56 [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:21:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:21:25+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/57
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:21:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate/id/57
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678887','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate/id/57
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T14:21:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504678904','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageAction
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+  \'id\' => \'57\',
+  \'first\' => \'1111111\',
+  \'keyword1\' => \'111111\',
+  \'keyword2\' => \'11111\',
+  \'remark\' => \'点击详情查看早盘标的！\',
+  \'url\' => \'http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww\',
+); 
+') [ RunTime:0.0002s ]
+SQL: UPDATE `wx_template` SET `template_id`='YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w',`first`='1111111',`keyword1`='111111',`keyword2`='11111',`remark`='点击详情查看早盘标的！',`url`='http://mp.weixin.qq.com/s/r3E1lA8OAa7MHlZlaO00Ww' WHERE `id` = 57 [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:21:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/57
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:22:04+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:22:23+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/57
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:24:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/57
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:24:35+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:24:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:24:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:25:32+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:27:31+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:28:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:30:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:34:35+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage/id/60
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_template` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:35:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/messageManage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_template`  [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:36:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T14:36:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504679769','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:37:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T14:37:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504679841','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:37:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504679863','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T14:39:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T14:39:33+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504679972','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T14:41:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T14:41:53+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504680112','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:42:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504680161','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:43:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504680225','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:44:23+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504680262','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T14:44:57+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504680296','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:10:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0164s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T16:10:46+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504685445','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:30:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:30:59+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:31:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504686665','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:31:55+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:31:59+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504686718','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:33:00+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:33:04+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504686783','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:33:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:33:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504686800','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:33:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504686806','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:46:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:46:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687570','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0940s ]
+
+[ 2017-09-06T16:47:36+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687655','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:48:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687707','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:48:49+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T16:48:53+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687732','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T16:49:22+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687761','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T16:51:15+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0237s ]
+
+[ 2017-09-06T16:51:18+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687877','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:51:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:51:46+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504687905','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T16:55:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T16:56:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T16:56:23+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:57:03+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:57:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T16:58:24+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:58:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:59:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:59:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T16:59:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688383','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:00:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:00:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688458','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:01:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T17:01:59+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688518','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:04:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:04:30+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688669','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:04:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T17:04:41+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688681','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.1020s ]
+
+[ 2017-09-06T17:04:46+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688685','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0036s ]
+
+[ 2017-09-06T17:04:54+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0027s ]
+
+[ 2017-09-06T17:05:00+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688699','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0036s ]
+
+[ 2017-09-06T17:05:35+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0948s ]
+
+[ 2017-09-06T17:05:39+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688738','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0266s ]
+
+[ 2017-09-06T17:06:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.1195s ]
+
+[ 2017-09-06T17:06:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688781','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0036s ]
+
+[ 2017-09-06T17:07:45+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0954s ]
+
+[ 2017-09-06T17:07:48+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688867','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0035s ]
+
+[ 2017-09-06T17:08:05+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.1053s ]
+
+[ 2017-09-06T17:08:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688898','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0668s ]
+
+[ 2017-09-06T17:09:28+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.1021s ]
+
+[ 2017-09-06T17:09:33+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504688972','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0036s ]
+
+[ 2017-09-06T17:10:22+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.1031s ]
+
+[ 2017-09-06T17:10:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689025','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0034s ]
+
+[ 2017-09-06T17:10:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0029s ]
+
+[ 2017-09-06T17:11:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689060','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0588s ]
+
+[ 2017-09-06T17:12:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0609s ]
+
+[ 2017-09-06T17:12:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689166','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:15:24+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0320s ]
+
+[ 2017-09-06T17:15:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689325','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0035s ]
+
+[ 2017-09-06T17:16:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0947s ]
+
+[ 2017-09-06T17:16:30+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689389','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0036s ]
+
+[ 2017-09-06T17:16:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0027s ]
+
+[ 2017-09-06T17:16:50+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689410','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0037s ]
+
+[ 2017-09-06T17:17:59+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0953s ]
+
+[ 2017-09-06T17:18:02+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689481','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0038s ]
+
+[ 2017-09-06T17:18:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0919s ]
+
+[ 2017-09-06T17:18:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689522','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0032s ]
+
+[ 2017-09-06T17:19:05+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0029s ]
+
+[ 2017-09-06T17:19:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689559','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0033s ]
+
+[ 2017-09-06T17:24:56+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0933s ]
+
+[ 2017-09-06T17:25:01+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689900','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0034s ]
+
+[ 2017-09-06T17:25:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504689905','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T17:27:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:27:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690028','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0974s ]
+
+[ 2017-09-06T17:27:31+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0335s ]
+
+[ 2017-09-06T17:27:35+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690054','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0034s ]
+
+[ 2017-09-06T17:27:58+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690078','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:28:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+
+[ 2017-09-06T17:28:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690126','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.1429s ]
+
+[ 2017-09-06T17:29:16+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T17:29:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690158','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T17:29:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0944s ]
+
+[ 2017-09-06T17:29:46+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690186','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:30:53+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0371s ]
+
+[ 2017-09-06T17:30:55+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690254','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:32:19+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.1006s ]
+
+[ 2017-09-06T17:32:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690340','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:34:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:34:29+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690468','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:36:05+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.2574s ]
+
+[ 2017-09-06T17:36:09+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690568','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0033s ]
+
+[ 2017-09-06T17:36:26+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690586','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0033s ]
+
+[ 2017-09-06T17:36:44+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0026s ]
+
+[ 2017-09-06T17:36:47+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690607','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0034s ]
+
+[ 2017-09-06T17:37:27+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0027s ]
+
+[ 2017-09-06T17:37:30+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690649','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0034s ]
+
+[ 2017-09-06T17:42:18+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690937','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0987s ]
+
+[ 2017-09-06T17:42:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0025s ]
+
+[ 2017-09-06T17:42:24+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504690944','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0001s ]
+
+[ 2017-09-06T17:46:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691200','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.1021s ]
+
+[ 2017-09-06T17:53:34+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.1554s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0109s ]
+
+[ 2017-09-06T17:53:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691617','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0577s ]
+
+[ 2017-09-06T17:53:57+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691637','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:55:06+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+
+[ 2017-09-06T17:55:10+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691709','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0509s ]
+
+[ 2017-09-06T17:55:37+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0968s ]
+
+[ 2017-09-06T17:55:40+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691740','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:55:59+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+
+[ 2017-09-06T17:56:03+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691762','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0914s ]
+
+[ 2017-09-06T17:56:32+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+
+[ 2017-09-06T17:56:34+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691794','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0003s ]
+
+[ 2017-09-06T17:57:17+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:57:21+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691840','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0002s ]
+
+[ 2017-09-06T17:57:38+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691857','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0203s ]
+
+[ 2017-09-06T17:57:42+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691861','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'MvZQDblBptLFcOxcU7i5aqxON0wetP9AZF4UzBRtkZI\',
+); 
+') [ RunTime:0.0004s ]
+
+[ 2017-09-06T17:57:49+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessage.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+
+[ 2017-09-06T17:57:52+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: INSERT INTO `wx_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Template','1504691872','http://localhost/myGitRepository/wephp/index.php?s=/w16/Template/Template/singleMessageTemplate.html
+POST: array (
+  \'template_id\' => \'YnEoyv7ShB0U6Am3S5mvhHqGN8yNKLW5pQ5If4LL24w\',
+); 
+') [ RunTime:0.0002s ]
+
