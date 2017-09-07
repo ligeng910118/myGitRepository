@@ -213,7 +213,7 @@ class TemplateController extends ManageBaseController{
             foreach ($users['data']['openid'] as $k=>$v)
             {
                 if($k%100==0)
-                    sleep(70);
+                    sleep(10);
                 $res[]=$this->sendAction($v);
             }
            //var_dump($res);die;
