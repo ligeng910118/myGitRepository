@@ -15,7 +15,7 @@ class BaseController extends Controller {
 	{
 		parent::__construct();
 		self::checkLogin();
-		self::checkAuth();
+		//self::checkAuth();
 	}
 	
 	
@@ -137,9 +137,7 @@ class BaseController extends Controller {
     		return $info;
     	}
     }
-    
-
-    
+  
     public function checkAuth()
     {
         $auth=new Auth();  

@@ -7,28 +7,28 @@
     <meta name="description" content="Developed By M Abdur Rokib Promy">
     <meta name="keywords" content="Admin, Bootstrap 3, Template, Theme, Responsive">
     <!-- bootstrap 3.0.2 -->
-    <link href="/oa/Public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- font Awesome -->
-    <link href="/oa/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Ionicons -->
-    <link href="/oa/Public/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- Morris chart -->
-    <link href="/oa/Public/css/morris/morris.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/morris/morris.css" rel="stylesheet" type="text/css" />
     <!-- jvectormap -->
-    <link href="/oa/Public/css/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
     <!-- Date Picker -->
-    <link href="/oa/Public/css/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
     <!-- fullCalendar -->
-    <!-- <link href="/oa/Public/css/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="/myGitRepository/oa/Public/css/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css" /> -->
     <!-- Daterange picker -->
-    <link href="/oa/Public/css/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
     <!-- iCheck for checkboxes and radio inputs -->
-    <link href="/oa/Public/css/iCheck/all.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/iCheck/all.css" rel="stylesheet" type="text/css" />
     <!-- bootstrap wysihtml5 - text editor -->
-    <!-- <link href="/oa/Public/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="/myGitRepository/oa/Public/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" /> -->
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <!-- Theme style -->
-    <link href="/oa/Public/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/myGitRepository/oa/Public/css/style.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -36,7 +36,7 @@
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond./oa/Public/js/1.3.0/respond.min.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond./myGitRepository/oa/Public/js/1.3.0/respond.min.js"></script>
           <![endif]-->
       </head> 
       <body class="skin-black">
@@ -243,7 +243,7 @@
                                         <li class="divider"></li>
 
                                         <li>
-                                            <a href="#"><i class="fa fa-ban fa-fw pull-right"></i> Logout</a>
+                                            <a href="/myGitRepository/oa/index.php/Index/login"><i class="fa fa-ban fa-fw pull-right"></i> Logout</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -280,42 +280,42 @@
                             <!-- sidebar menu: : style can be found in sidebar.less -->
                             <ul class="sidebar-menu">
                                 <li class="active">
-                                    <a href="/oa/index.php/Index/index">
+                                    <a href="/myGitRepository/oa/index.php/Index/index">
                                         <span>首页</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/oa/index.php/User/index">
+                                    <a href="/myGitRepository/oa/index.php/User/index">
                                        <span>用户</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="/oa/index.php/Privilege/index">
+                                    <a href="/myGitRepository/oa/index.php/Privilege/index">
                                         <span>权限</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="/oa/index.php/Group/index">
-                                        <span>群组</span>
+                                    <a href="/myGitRepository/oa/index.php/Group/index">
+                                        <span>分配</span>
                                     </a>
                                 </li>
 			
 								<li>
-                                    <a href="/oa/index.php/UserToGroup/index">
-                                       <span>分配</span>
+                                    <a href="/myGitRepository/oa/index.php/UserToGroup/index">
+                                       <span>群组</span>
                                     </a>
                                 </li>
                                 
                                 <li>
-                                    <a href="/oa/index.php/ProductOrder/index">
+                                    <a href="/myGitRepository/oa/index.php/ProductOrder/index">
                                          <span>产品</span>
                                     </a>
                                 </li>
                                 
                                    <li>
-                                    <a href="/oa/index.php/Manage/index">
+                                    <a href="/myGitRepository/oa/index.php/Manage/index">
                                          <span>审核</span>
                                     </a>
                                 </li>
@@ -336,7 +336,7 @@
                         <div class="col-md-12	">
                             <section class="panel">
                               <header class="panel-heading">
-                                  Work Progress <a href="/oa/index.php/User/add" class="pull-right badge bg-yellow">添加</a>
+                                  Work Progress <a href="/myGitRepository/oa/index.php/User/add" class="pull-right badge bg-yellow">添加</a>
                             </header>
                             <div class="panel-body table-responsive">
                                 <table class="table table-hover">
@@ -365,8 +365,8 @@
                                   </td>
                                   
                                   <!-- <td>$1500</td> -->
-                                  <td><a href="/oa/index.php/User/update/id/<?php echo ($vo["id"]); ?>" class="badge bg-light-blue">修改</a></td>
-                                  <td><a href="/oa/index.php/User/delete/id/<?php echo ($vo["id"]); ?>" class="badge bg-red">删除</a></td>
+                                  <td><a href="/myGitRepository/oa/index.php/User/update/id/<?php echo ($vo["id"]); ?>" class="badge bg-light-blue">修改</a></td>
+                                  <td><a href="/myGitRepository/oa/index.php/User/delete/id/<?php echo ($vo["id"]); ?>" class="badge bg-red">删除</a></td>
                               </tr><?php endforeach; endif; ?>
                           </tbody>
                       </table>
@@ -388,31 +388,31 @@
         </div><!-- ./wrapper -->
 
        <!-- jQuery 2.0.2 -->        
-        <script src="/oa/Public/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/jquery.min.js" type="text/javascript"></script>
 
         <!-- jQuery UI 1.10.3 -->
-        <script src="/oa/Public/js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
         <!-- Bootstrap -->
-        <script src="/oa/Public/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- daterangepicker -->
-        <script src="/oa/Public/js/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
 
-        <script src="/oa/Public/js/plugins/chart.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/plugins/chart.js" type="text/javascript"></script>
 
         <!-- datepicker
-        <script src="/oa/Public/js/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>-->
+        <script src="/myGitRepository/oa/Public/js/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>-->
         <!-- Bootstrap WYSIHTML5
-        <script src="/oa/Public/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>-->
+        <script src="/myGitRepository/oa/Public/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>-->
         <!-- iCheck -->
-        <script src="/oa/Public/js/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
         <!-- calendar -->
-        <script src="/oa/Public/js/plugins/fullcalendar/fullcalendar.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/plugins/fullcalendar/fullcalendar.js" type="text/javascript"></script>
 
         <!-- Director App -->
-        <script src="/oa/Public/js/Director/app.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/Director/app.js" type="text/javascript"></script>
 
         <!-- Director dashboard demo (This is only for demo purposes) -->
-        <script src="/oa/Public/js/Director/dashboard.js" type="text/javascript"></script>
+        <script src="/myGitRepository/oa/Public/js/Director/dashboard.js" type="text/javascript"></script>
 
         <!-- Director for demo purposes -->
         <script type="text/javascript">
