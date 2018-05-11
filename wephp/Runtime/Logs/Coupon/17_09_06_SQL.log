@@ -1,9 +1,0 @@
-[ 2017-09-06T11:08:20+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Coupon/Coupon/lists.html&mdm=356
-SQL: SELECT * FROM `wx_apps_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
-SQL: SELECT * FROM `wx_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
-SQL: SHOW COLUMNS FROM `wx_sn_code` [ RunTime:0.0006s ]
-SQL: SHOW COLUMNS FROM `wx_coupon` [ RunTime:0.0006s ]
-SQL: SELECT * FROM `wx_model` WHERE `name` = 'coupon' LIMIT 1   [ RunTime:0.0263s ]
-SQL: SELECT `id` FROM `wx_coupon` WHERE `token` = 'gh_85336bc1a8ea' AND `is_del` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
-SQL: SELECT COUNT(*) AS tp_count FROM `wx_coupon` WHERE `token` = 'gh_85336bc1a8ea' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0002s ]
-

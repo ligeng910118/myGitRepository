@@ -1,3 +1,0 @@
-[ 2017-09-07T16:06:43+08:00 ] 127.0.0.1 /myGitRepository/wephp/index.php?s=/w16/Home/Material/material_lists.html&mdm=60
-ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'weiphp.wx_material_news.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
-
